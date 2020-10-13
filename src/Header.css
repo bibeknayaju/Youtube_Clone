@@ -1,0 +1,52 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+
+.header__left {
+    margin-left: 0px;
+}
+
+.header__logo{
+    height: 22px;
+    object-fit: contain;
+    margin-left: 10px;
+}
+
+.header__input {
+    display: flex;
+    align-items: center;
+    width: 48%;
+    border: 1px solid lightgray;
+}
+
+.header__menuIcon {
+    margin-left: 5px;
+}
+
+.header__inputButton {
+    width: 50 !important;
+    background-color: #fafafa;
+    border-left: 1px solid lightgray;
+    color: gray;
+}
+
+.header__icon {
+    margin-right: 0;
+}
+
+.header__icons{
+    display: flex;
+    align-items: center;
+}
+
+.header__input > input {
+    flex: 1;
+    border: none;
+}
